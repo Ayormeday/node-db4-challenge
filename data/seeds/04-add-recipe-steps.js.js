@@ -38,7 +38,31 @@ exports.seed = function(knex) {
           stepNumber: 3,
           step:
             "Remove from heat, allowing eggs to continue to cook slightly after heat is gone. Garnish with parsley and serve"
-        }
+        },
+        {
+          recipe_id: 3,
+          stepNumber: 1,
+          step:
+            "Break egg into pan of light oil"
+        },
+        {
+          recipe_id: 3,
+          stepNumber: 2,
+          step:
+            "Add chicken franks and half sliced tomatoes on the pan "
+        },
+        {
+          recipe_id: 3,
+          stepNumber: 3,
+          step:
+            "season with black pepper and pinch of salt"
+        },
+        {
+          recipe_id: 3,
+          stepNumber: 4,
+          step:
+            "turn egg sides as well as the franks and tomatoes."
+        },
       ]);
     });
 };

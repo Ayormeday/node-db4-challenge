@@ -16,6 +16,7 @@ exports.seed = function (knex) {
         { ingredient: 'ground black pepper' },
         { ingredient: 'butter tablespoon' },
         { ingredient: 'pinch chopped fresh parsley' },
+        { ingredient: 'chicken franks' },
       ]);
     });
 };

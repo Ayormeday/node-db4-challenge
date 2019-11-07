@@ -5,7 +5,7 @@ exports.seed = function(knex) {
       return knex("recipe").insert([
         { recipe: "Three Egg Omelet" },
         { recipe: "Soft Scrambled Eggs" },
-        { recipe: "sunny side up"}
+        { recipe: "sunny side up" }
       ]);
     });
 };
